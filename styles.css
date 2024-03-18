@@ -1,0 +1,160 @@
+/* Main Styling */
+body{
+    background-color:white;
+}
+
+/* Navbar styling */
+#navbar{
+    background-color:rgb(8, 94, 169);
+    padding: 20px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:space-around;
+}
+  
+#navbar li {
+    display: inline;
+}
+
+#navbar a{
+    text-decoration:none;
+    color:rgb(240, 150, 231);
+    padding: 10px;
+}
+
+#navbar a:hover{
+    background-color:white;
+}
+
+/* Front section styling */
+#front{
+    background-color:rgb(240, 150, 231);
+    color:rgb(8, 94, 169);
+    font-size:20px;
+    padding: 100px;
+    text-align:center;
+}
+
+#colored{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* H1 styling */
+#front h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+    color:rgb(240, 233, 242);
+}
+
+/* About section styling */
+#about{
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+    color:rgb(8,94,169);
+}
+
+#text{
+    flex: 1;
+    text-align:center;
+}
+
+#myphoto img{
+    border-radius: 50%;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    border: 4px solid rgb(240, 150, 231);
+}
+
+.bold-pink{
+    font-weight:bold;
+    color:rgb(240, 150, 231);
+}
+
+/* Footer Content */
+#footer{
+    padding:20px;
+    background-color: rgb(8, 94, 169);
+    color:rgb(240, 150, 231);
+    text-align: center;
+}
+
+#footer-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#footer a{
+    text-decoration: none;
+    color:rgb(240, 150, 231);
+}
+
+/* Buying page format */
+#buying{
+    text-align: center;
+    background-color:white;
+    justify-content: space-between;
+}
+
+
+#photos{
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+#photos img{
+    display: block;
+    margin: 0 auto;
+    border: 2px solid rgb(240, 150, 231);
+}
+#photos h3{
+    color:rgb(8, 94, 169);
+}
+
+#Title img{
+    margin: 0 auto;
+    border: 2px solid rgb(240, 150, 231);
+}
+
+#season{
+    background-color:rgb(240, 150, 231);
+    color:rgb(8, 94, 169);
+    font-size:20px;
+    padding: 100px;
+    text-align:center;
+}
+#season img{
+    border: 2px solid rgb(8, 94, 169);
+}
+
+#hearts{
+    background-color:rgb(240, 150, 231);
+    color:rgb(8, 94, 169);
+
+}
+#hearts img{
+    width: 200px;
+    height: 300px;
+}
+
+#pattern-title{
+    background-color:rgb(240, 150, 231);
+    text-align: center;
+}
+#patterns{
+    color: rgb(8, 94, 169);
+}
